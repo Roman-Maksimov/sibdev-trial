@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "plugins": [
+    "prettier",
+    "simple-import-sort",
+    "unused-imports"
+  ],
+  "rules": {
+    "simple-import-sort/imports": 1,
+    "simple-import-sort/exports": 1,
+    "unused-imports/no-unused-imports": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/react-in-jsx-scope": "off"
+  }
 }
