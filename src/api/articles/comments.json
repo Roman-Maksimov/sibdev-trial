@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "articleId": 1,
+    "date": "2024-06-20 10:03:48",
+    "message": "Great article!"
+  },
+  {
+    "id": 2,
+    "articleId": 1,
+    "date": "2024-06-20 11:21:05",
+    "message": "Cool! Thanks!"
+  },
+  {
+    "id": 3,
+    "articleId": 1,
+    "date": "2024-06-20 20:13:56",
+    "message": "\uD83D\uDC4D"
+  },
+  {
+    "id": 4,
+    "articleId": 1,
+    "date": "2024-06-21 09:10:01",
+    "message": "Awesome!"
+  }
+]

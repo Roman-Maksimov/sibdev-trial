@@ -1,8 +1,9 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Divider, Typography } from '@mui/material';
 import Image from 'next/image';
 import { FC } from 'react';
 
 import { Article } from '@/src/api/articles/types';
+import { Comments } from '@/src/components/Comments/Comments';
 
 export interface ArticleDetailsProps {
   article: Article;
@@ -32,6 +33,10 @@ export const ArticleDetails: FC<ArticleDetailsProps> = ({ article }) => {
       <Typography component="article" mt={2}>
         {article.text}
       </Typography>
+
+      <Divider orientation="horizontal" sx={{ my: 4 }} />
+
+      <Comments articleId={article.id} />
     </>
   );
 };
