@@ -5,19 +5,17 @@ declare module '@mui/material/styles/createPalette' {
     gray: string;
   }
 
-  interface PaletteOptions {
-    hover: string;
-  }
+  interface PaletteOptions {}
 
-  interface Palette {
-    hover: string;
-  }
+  interface Palette {}
 }
 
 export const palette: PaletteOptions = {
-  hover: '#f1fdfd',
+  text: {
+    disabled: '#969696',
+  },
 
   background: {
-    gray: '#f9f9f9',
+    gray: '#ededed',
   },
 };

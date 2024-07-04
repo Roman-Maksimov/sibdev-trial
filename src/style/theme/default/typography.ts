@@ -21,15 +21,21 @@ export const UITypography: Record<
   keyof TypographyPropsVariantOverrides,
   TypographyStyle
 > = {
-  subtitle1: {
-    fontSize: 12,
-    lineHeight: 1.2,
-    fontWeight: 600,
+  h1: {
+    fontSize: 48,
+    fontWeight: 500,
+    lineHeight: 1.5,
+  },
+
+  body1: {
+    fontSize: 16,
+    lineHeight: 1.5,
+    fontWeight: 400,
   },
 
   body2: {
     fontSize: 12,
-    lineHeight: 1.2,
+    lineHeight: 1.5,
     fontWeight: 400,
   },
 };

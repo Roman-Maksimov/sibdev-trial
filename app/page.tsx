@@ -1,5 +1,11 @@
-import { Box } from '@mui/material';
+import { Container } from '@mui/material';
+
+import { Articles } from '@/src/components/Articles/Articles';
 
 export default function Home() {
-  return <Box>App here...</Box>;
+  return (
+    <Container maxWidth="md" sx={{ py: 3 }}>
+      <Articles />
+    </Container>
+  );
 }
